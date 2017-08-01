@@ -1,0 +1,194 @@
+/*---------------------------------------------------------------
+/* url
+---------------------------------------------------------------*/
+/* $url-public : 'http://static.larepublica.pe';*/
+/* $url-frontend : 'http://larepublica.dev';*/
+/* $url-public : 'http://larepublica.dev';*/
+/* $url-public : 'http://localhost:3000';*/
+/* $url-public-fonts : 'http://larepublica.dev/assets/fonts';*/
+/*---------------------------------------------------------------
+/* fonts
+---------------------------------------------------------------*/
+/* 10px*/
+/* 13px*/
+/*---------------------------------------------------------------
+/* color
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+/* border
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+/* $mq
+---------------------------------------------------------------*/
+.org-section_Spotlight_Tv {
+  display: none; }
+  @media (min-width: 768px) {
+    .org-section_Spotlight_Tv {
+      margin-top: 20px;
+      display: block; } }
+  @media (min-width: 998px) {
+    .org-section_Spotlight_Tv {
+      margin-top: 0; } }
+  .org-section_Spotlight_Tv .Spotlight_Tv__title {
+    margin-bottom: 0.2rem;
+    padding-left: 0.5rem; }
+    .org-section_Spotlight_Tv .Spotlight_Tv__title:before {
+      content: url(/assets/images/larepublica/content/default/LR-TV.png); }
+  .org-section_Spotlight_Tv .mol-card_Format9 {
+    display: block;
+    margin-bottom: 0.9rem; }
+  .org-section_Spotlight_Tv .Format9__figure {
+    position: relative; }
+  .org-section_Spotlight_Tv .Format9__content {
+    color: #FFF;
+    position: relative; }
+  .org-section_Spotlight_Tv .Format9__iconPlay {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .org-section_Spotlight_Tv .Format9__iconPlay i {
+      text-align: center;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      background-color: #333340;
+      color: #5cff68; }
+  .org-section_Spotlight_Tv .side-right {
+    /* @include tablet {*/
+    /* }*/ }
+    .org-section_Spotlight_Tv .side-right img:not(src) {
+      min-height: 72px; }
+    .org-section_Spotlight_Tv .side-right .Format9__iconPlay i {
+      width: 20px;
+      height: 20px;
+      padding-left: 0.3rem; }
+    .org-section_Spotlight_Tv .side-right .Format9__content {
+      min-height: 72px;
+      padding: 0.4rem 0.7rem;
+      background: -webkit-gradient(linear, left top, right top, from(#1d1d1d), color-stop(25%, #1d1d1d), to(#333340));
+      background: -webkit-linear-gradient(left, #1d1d1d, #1d1d1d 25%, #333340);
+      background: -o-linear-gradient(left, #1d1d1d, #1d1d1d 25%, #333340);
+      background: linear-gradient(-270deg, #1d1d1d, #1d1d1d 25%, #333340);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1d1d', endColorstr='#333340',GradientType=1 );
+      padding-bottom: 2.5rem; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.tres_d:before, .org-section_Spotlight_Tv .side-right .Format9__content.sin_guion:before, .org-section_Spotlight_Tv .side-right .Format9__content.lacontra:before, .org-section_Spotlight_Tv .side-right .Format9__content.doce_en_punto:before, .org-section_Spotlight_Tv .side-right .Format9__content.sigrid:before {
+        content: "";
+        display: block;
+        height: 22px;
+        position: absolute;
+        bottom: 0.5rem;
+        right: 1.2rem;
+        z-index: 1; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.tres_d:before {
+        width: 76px;
+        background: url(/assets/images/larepublica/content/default/tresD.svg);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.doce_en_punto:before {
+        width: 76px;
+        background: url(/assets/images/larepublica/content/default/doceenpunto.svg);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.sigrid:before {
+        width: 63px;
+        background: url(/assets/images/larepublica/content/default/sigrid.svg);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.lacontra:before {
+        width: 72px;
+        background: url(/assets/images/larepublica/content/default/lacontra.svg);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .org-section_Spotlight_Tv .side-right .Format9__content.sin_guion:before {
+        width: 43px;
+        background: url(/assets/images/larepublica/content/default/singuion.svg);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-right .Format9__title {
+      height: 28px;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      display: block;
+      display: -webkit-box; }
+    @media (min-width: 998px) {
+      .org-section_Spotlight_Tv .side-right .Format9__title {
+        height: 30px; }
+      .org-section_Spotlight_Tv .side-right img:not(src) {
+        min-height: 101px; }
+      .org-section_Spotlight_Tv .side-right .Format9__iconPlay i {
+        line-height: 1.9; } }
+  @media (min-width: 768px) {
+    .org-section_Spotlight_Tv .side-left img:not(src) {
+      min-height: 209px; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.doce_en_punto:before, .org-section_Spotlight_Tv .side-left .Format9__figure.lacontra:before, .org-section_Spotlight_Tv .side-left .Format9__figure.sigrid:before, .org-section_Spotlight_Tv .side-left .Format9__figure.tres_d:before, .org-section_Spotlight_Tv .side-left .Format9__figure.sin_guion:before {
+      content: "";
+      display: block;
+      width: 120px;
+      position: absolute;
+      top: 3rem;
+      left: 2rem;
+      z-index: 1; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.sin_guion:before {
+      height: 90px;
+      background: url(/assets/images/larepublica/content/default/singuion.svg);
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.tres_d:before {
+      height: 46px;
+      background: url(/assets/images/larepublica/content/default/tresD.svg);
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.doce_en_punto:before {
+      height: 50px;
+      background: url(/assets/images/larepublica/content/default/doceenpunto.svg);
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.sigrid:before {
+      height: 54px;
+      background: url(/assets/images/larepublica/content/default/sigrid.svg);
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.lacontra:before {
+      height: 50px;
+      background: url(/assets/images/larepublica/content/default/lacontra.svg);
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .org-section_Spotlight_Tv .side-left .Format9__iconPlay i {
+      width: 61px;
+      height: 61px;
+      padding-left: 1rem; }
+    .org-section_Spotlight_Tv .side-left .Format9__content {
+      background: #333340;
+      min-height: 95px;
+      padding: 0.2rem 3rem; }
+    .org-section_Spotlight_Tv .side-left .Format9__title {
+      font-weight: bold;
+      height: 75.5px;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      overflow: hidden; } }
+  @media (min-width: 998px) {
+    .org-section_Spotlight_Tv .side-left img:not(src) {
+      min-height: 258px; }
+    .org-section_Spotlight_Tv .side-left .Format9__iconPlay i {
+      line-height: 6; }
+    .org-section_Spotlight_Tv .side-left .Format9__figure.sin_guion:before, .org-section_Spotlight_Tv .side-left .Format9__figure.lacontra:before, .org-section_Spotlight_Tv .side-left .Format9__figure.sigrid:before, .org-section_Spotlight_Tv .side-left .Format9__figure.doce_en_punto:before, .org-section_Spotlight_Tv .side-left .Format9__figure.tres_d:before {
+      width: 182px; } }
+
+/*# sourceMappingURL=main.css.map */
